@@ -1,5 +1,10 @@
 class Book < ApplicationRecord
-  def put_title
-    puts "The title is " + title
-  end
+  attr_accessor :id,
+                :title,
+                :author,
+                :description,
+                :genre,
+                :released,
+                :created_at,
+                :updated_at
 end
