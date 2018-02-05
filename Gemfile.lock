@@ -39,6 +39,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     arel (8.0.0)
+    awesome_print (1.8.0)
     builder (3.2.3)
     byebug (10.0.0)
     concurrent-ruby (1.0.5)
@@ -131,6 +132,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  awesome_print
   byebug
   faker
   fast_jsonapi

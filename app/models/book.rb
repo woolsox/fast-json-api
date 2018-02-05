@@ -4,7 +4,5 @@ class Book < ApplicationRecord
                 :author,
                 :description,
                 :genre,
-                :released,
-                :created_at,
-                :updated_at
+                :released
 end

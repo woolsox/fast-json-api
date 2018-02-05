@@ -1,4 +1,4 @@
-require "faker"
+require 'faker'
 
 # This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
@@ -12,7 +12,7 @@ Book.destroy_all
 
 p "Destroyed #{Book.count} book records..."
 
-250.times do |book| 
+250.times do
     Book.create!(title: Faker::Book.title,
                  author: Faker::Book.author,
                  description: Faker::Lovecraft.paragraph,
