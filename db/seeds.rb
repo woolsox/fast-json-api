@@ -13,7 +13,7 @@ Book.destroy_all
 p "Destroyed #{Book.count} book records..."
 
 250.times do
-    Book.create!(title: Faker::Book.title,
+    Book.create(title: Faker::Book.title,
                  author: Faker::Book.author,
                  description: Faker::Lovecraft.paragraph,
                  genre: Faker::Book.genre,
@@ -21,3 +21,4 @@ p "Destroyed #{Book.count} book records..."
 end
 
 p "Created #{Book.count} book records..."
+p "You blew it." if Book.first.id == nil
