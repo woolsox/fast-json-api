@@ -1,24 +1,8 @@
-# README
+# FAST-JSON-API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The purpose of this repository is to act as a sandbox for experimenting with the difference in
+serialization speed between the Active Model Serializer and Fast JSON API gems.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Reference:
+FJA: https://github.com/Netflix/fast_jsonapi
+AMS: https://github.com/rails-api/active_model_serializers
