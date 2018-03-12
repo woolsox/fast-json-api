@@ -26,6 +26,9 @@ Rails.application.configure do
     config.cache_store = :null_store
   end
 
+  # JSON API config [*possible removal*]
+  ActiveModelSerializers.config.adapter = :json_api
+
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = false
 

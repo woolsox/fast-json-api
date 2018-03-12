@@ -1,13 +1,11 @@
 class BooksController < ApplicationController
   def show_fja
-    books = Book.all
-    json = BookSerializerFJA.new(books).serialized_json
-    render json: json
-   end
+    books = BookSerializerFJA.new(Book.all).serialized_json
+    render json: books
+  end
 
   def show_ams
     books = Book.all
-    json = BookSerializerFJA.new(books).serialized_json
-    render json: json
+    render json: books
   end
 end
