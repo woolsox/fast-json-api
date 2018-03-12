@@ -1,4 +1,4 @@
-    class BookSerializer
+    class BookSerializerFJA
         include FastJsonapi::ObjectSerializer
         set_type :book
         attributes :id,
